@@ -38,6 +38,8 @@
 
 ## Results
 
+![Figure 2](/figure/Final_figure_1.png)
+
 - 단일 이미지 특징 데이터를 활용한 advanced stacking 결과 중에서 가장 성능이 우수한 working memory advanced stacking에 비해 multimodal transformer stacking에서 평균 correlation 0.07, 평균 COD 0.05가 향상된 결과를 보였습니다.
 - Average Stacking 방법에 대비 multimodal transformer stacking의 평균 correlation은 0.12가 향상되었고, 평균 COD는 0.08 향상되었습니다.
 - Multimodal transformer stacking과 기존 방법에 대한 성능 비교를 통해, 멀티모달리티로부터 추출된 정보를 self-attnetion을 활용하여 효과적으로 융합할 수 있음을 보였습니다.
@@ -50,7 +52,24 @@
 
 ## Reference
 
-[1] Li, Mingliang, et al. "Prediction of fluid intelligence from T1-w MRI images: A precise two-step deep learning framework." PloS one 17.8 (2022): e0268707.
-[2] Ooi, Leon Qi Rong, et al. "Comparison of individualized behavioral predictions across anatomical, diffusion and functional connectivity MRI." NeuroImage 263 (2022): 119636.
-[3] Sebenius, Isaac, et al. "Robust estimation of cortical similarity networks from brain MRI." Nature Neuroscience 26.8 (2023): 1461-1471.
-[4] He, Tong, et al. "Meta-matching as a simple framework to translate phenotypic predictive models from big to small data." Nature neuroscience 25.6 (2022): 795-804.
+[1] He, T., An, L., Chen, P., Chen, J., Feng, J., Bzdok, D., Holmes, A. J., Eickhoff, S. B., & Yeo, B. T.
+(2022). 'Meta-matching as a simple framework to translate phenotypic predictive models from big
+to small data', Nature neuroscience, vol. 25, no.6, pp. 795-804.
+[2] Bahdanau, D., Cho, K., & Bengio, Y. (2014). 'Neural machine translation by jointly learning to align
+and translate', arXiv preprint arXiv:1409.0473, vol., pp.
+[3] Ooi, L. Q. R., Chen, J., Zhang, S., Kong, R., Tam, A., Li, J., Dhamala, E., Zhou, J. H., Holmes, A. J.,
+& Yeo, B. T. (2022). 'Comparison of individualized behavioral predictions across anatomical, diffusion
+and functional connectivity MRI', Neuroimage, vol. 263, pp. 119636.
+[4] Sebenius, I., Seidlitz, J., Warrier, V., Bethlehem, R. A., Alexander-Bloch, A., Mallard, T. T., Garcia,
+R. R., Bullmore, E. T., & Morgan, S. E. (2023). 'Robust estimation of cortical similarity networks from
+brain MRI', Nature neuroscience, vol. 26, no.8, pp. 1461-1471.
+[5] Seidlitz, J., Váša, F., Shinn, M., Romero-Garcia, R., Whitaker, K. J., Vértes, P. E., Wagstyl, K.,
+Reardon, P. K., Clasen, L., & Liu, S. (2018). 'Morphometric similarity networks detect microscale
+cortical organization and predict inter-individual cognitive variation', Neuron, vol. 97, no.1, pp.
+231-247. e237.
+[6] Schaefer, A., Kong, R., Gordon, E. M., Laumann, T. O., Zuo, X.-N., Holmes, A. J., Eickhoff, S. B., &
+Yeo, B. T. (2018). 'Local-global parcellation of the human cerebral cortex from intrinsic functional
+connectivity MRI', Cerebral cortex, vol. 28, no.9, pp. 3095-3114.V
+[7] Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin,
+I. (2017). ‘Attention is all you need’, Advances in neural information processing systems, vol. 30,
+pp.
