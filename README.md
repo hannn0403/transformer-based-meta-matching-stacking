@@ -22,6 +22,8 @@
 
 ### Multimodal Transformer Stacking
 
+![Figure 1](/figure/Final_figure_1.png)
+
 - Train meta set을 통해 Basic DNN을 학습합니다.
 - K-shot sample set의 5종류의 이미지 특징 데이터에서 학습된 Basic DNN을 통해 58개의 비영상 표현형을 예측합니다.
 - 각 이미지 특징 데이터로부터 나온 58개의 예측 값을 병합하여 multimodal feature matrix를 생성합니다.
@@ -38,7 +40,7 @@
 
 ## Results
 
-![Figure 2](/figure/Final_figure_1.png)
+![Figure 2](/figure/Final_figure_2.png)
 
 - 단일 이미지 특징 데이터를 활용한 advanced stacking 결과 중에서 가장 성능이 우수한 working memory advanced stacking에 비해 multimodal transformer stacking에서 평균 correlation 0.07, 평균 COD 0.05가 향상된 결과를 보였습니다.
 - Average Stacking 방법에 대비 multimodal transformer stacking의 평균 correlation은 0.12가 향상되었고, 평균 COD는 0.08 향상되었습니다.
