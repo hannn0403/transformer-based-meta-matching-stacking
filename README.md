@@ -12,7 +12,7 @@
 
 ### Dataset
 
-- Human Connectome Project (HCP)에서 제공하는 59개의 비영상 표현형과 750명의 뇌 영상 데이터를 사용하였습ㄴ다.
+- Human Connectome Project (HCP)에서 제공하는 59개의 비영상 표현형과 750명의 뇌 영상 데이터를 사용하였습니다.
 - 학습에 사용하는 모달리티 별 이미지 특징 데이터입니다.
     - **sMRI** : morphometric inverse divergence networks (MIND)
     - **fMRI** : 휴지기(resting state)와 일시적인 기억(working memory)과 관련된 작업에 대한 기능적 연결성(functional connectivity)
